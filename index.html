@@ -4,10 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer type="module"></script>
     <title>Login</title>
 </head>
 <body>
-    
+     <main id="box">
+        <form>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="seu@gmail.com"  required>
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Senha" required>
+            </div>
+            <div>
+                <button type="button">Recuperar senha</button>
+            </div>
+            <div
+            ><button type="button" onclick="entrar()">Entrar</button>
+            </div>
+            <div>
+                <button type="button" onclick="registrar()">Registrar</button>
+            </div>
+        </form>
+     </main>
 </body>
 </html>
